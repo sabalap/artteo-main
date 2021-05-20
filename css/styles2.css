@@ -1,0 +1,373 @@
+@media (max-width: 680px) {
+  .input {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .details .projects {
+    display: flex;
+    flex-direction: column;
+  }
+  .details .projects > div {
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 600px) {
+  .last-container > img {
+    max-width: 320px;
+  }
+  .last-box {
+    display: flex;
+    flex-direction: column;
+  }
+  .last-box button:first-of-type {
+    margin-right: 0px;
+    margin-bottom: 10px;
+  }
+  .about-you {
+    padding: 15px !important;
+  }
+}
+@media (max-width: 560px) {
+  .person-info {
+    left: 15%;
+  }
+  .team-work {
+    max-width: 300px;
+  }
+  .negotiation {
+    max-width: 280px;
+  }
+  .team-work {
+    max-width: 220px;
+  }
+  .service-part-1 > img {
+    max-width: 220px;
+    height: 200px;
+  }
+  .person img {
+    max-width: 220px !important;
+  }
+  .person-info p {
+    font-size: 15px;
+  }
+  .person {
+    margin-bottom: 300px !important;
+  }
+  .persons {
+    margin-bottom: 100px !important;
+  }
+  h1 {
+    font-size: 28px !important;
+    line-height: 35px !important;
+  }
+  h2 {
+    font-size: 24px !important;
+    line-height: 30px !important;
+  }
+  h3 {
+    font-size: 20px !important;
+    line-height: 25px !important;
+  }
+  h4 {
+    font-size: 18px !important;
+    line-height: 23px !important;
+  }
+  p {
+    font-size: 15px !important;
+    line-height: 20px !important;
+  }
+  .about h2 {
+    font-size: 25px !important;
+    line-height: 30px !important;
+  }
+  .person-info h4 {
+    font-size: 16px !important;
+    line-height: 24px !important;
+  }
+  .person-info p {
+    font-size: 14px !important;
+    line-height: 22px !important;
+  }
+  .text-person .person-info {
+    left: 0;
+  }
+  .logo img {
+    height: 70px;
+  }
+  .services {
+    margin-top: 60px;
+  }
+  .persons {
+    margin-bottom: 50px !important;
+  }
+  .last-container img {
+    max-width: 220px;
+  }
+  .last-box {
+    width: 100%;
+  }
+  .container {
+    padding: 10px;
+  }
+  .projects-part-1 {
+    max-width: 350px;
+  }
+  .projects-part-1 img {
+    max-width: 350px;
+  }
+  .projects-2 > img {
+    max-width: 280px;
+  }
+}
+@media (max-width: 440px) {
+  .projects-part-1 {
+    max-width: 100%;
+  }
+  .projects-part-1 img {
+    max-width: 100%;
+  }
+  .projects-part-3 {
+    max-width: 100%;
+  }
+  .projects-part-3 img {
+    max-width: 100%;
+  }
+  .calendar button {
+    width: 100%;
+  }
+}
+.btn-login {
+  transition: linear 0.3s;
+}
+.btn-login:hover {
+  background: #8e0554;
+  color: #fff;
+}
+.btn-contact {
+  transition: linear 0.3s;
+}
+.btn-contact:hover {
+  opacity: 0.7;
+}
+.get-started-btn {
+  transition: linear 0.3s;
+}
+.get-started-btn:hover {
+  opacity: 0.7;
+}
+.learn-more {
+  transition: linear 0.3s;
+}
+.learn-more:hover {
+  opacity: 0.7;
+}
+.text-person .btn {
+  transition: linear 0.3s;
+}
+.text-person .btn:hover {
+  opacity: 0.7;
+}
+.contact-title button {
+  transition: linear 0.3s;
+}
+.contact-title button:hover {
+  opacity: 0.7;
+}
+.book {
+  transition: linear 0.3s;
+}
+.book:hover {
+  opacity: 0.7;
+}
+.logo img {
+  transition: linear 0.3s;
+}
+.logo img:hover {
+  opacity: 0.7;
+}
+.btn-arrow {
+  background: #2e2e2e;
+  border-color: white;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  z-index: 2;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  position: fixed;
+  top: 80%;
+  left: 50%;
+  display: none;
+  transform: translate(-50%, -50%);
+}
+@media (max-width: 980px) {
+  .btn-arrow {
+    display: none !important;
+  }
+}
+.person-img {
+  height: 481px !important;
+  width: 400px !important;
+  object-fit: cover;
+}
+@media (max-width: 560px) {
+  .person-img {
+    height: 300px !important;
+  }
+}
+.team .title-team {
+  margin-bottom: 60px !important;
+}
+.team .persons {
+  margin-bottom: 220px;
+}
+.last-box {
+  width: 88%;
+}
+.last-box .row {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+}
+@media (max-width: 1024px) {
+  .person-info {
+    left: 50% !important;
+    transform: translate(-50%, 0%);
+    width: 100%;
+  }
+  .last-box .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .last-box .row p {
+    margin-bottom: 30px;
+  }
+  .last-box .row button:first-of-type {
+    margin-right: 0px !important;
+    margin-bottom: 20px;
+  }
+  .last-box .row button {
+    width: 145px;
+  }
+  .text-person .text {
+    margin-right: 0px;
+  }
+}
+.text-person {
+  grid-template-columns: 1fr !important;
+  text-align: center;
+  margin-top: 250px;
+}
+.text-person .text {
+  margin-left: 0px;
+}
+.text-person .members {
+  margin: 0 auto;
+}
+main > .team {
+  margin-bottom: 170px;
+}
+@media (max-width: 550px) {
+  .text-person {
+    margin-top: 0px;
+  }
+  .team {
+    margin-bottom: 80px;
+  }
+}
+nav .logo {
+  transition: 0.2s ease-in-out;
+}
+nav .logo:hover {
+  transform: scale(1.1);
+}
+header .negotiation {
+  transition: 0.2s ease-in-out;
+}
+header .negotiation:hover {
+  transform: scale(1.05);
+}
+.person .person-img {
+  transition: 0.2s ease-in-out;
+  border-radius: 10px;
+}
+.person .person-img:hover {
+  transform: scale(1.05);
+}
+.business-agency img,
+.mobile-design img,
+.business-agency-2 img {
+  transition: 0.2s ease-in-out;
+}
+.business-agency img:hover,
+.mobile-design img:hover,
+.business-agency-2 img:hover {
+  transform: scale(1.03);
+}
+.last-box .row button {
+  transition: 0.2s ease-in-out;
+  border: 1px solid white;
+}
+.last-box .row button:hover {
+  background: rgb(142, 5, 84);
+  color: white;
+}
+.info .team-work {
+  transition: 0.2s ease-in-out;
+}
+.info .team-work:hover {
+  transform: scale(1.03);
+}
+.service-part-1 img {
+  transition: 0.2s ease-in-out;
+}
+.service-part-1 img:hover {
+  opacity: 0.8;
+}
+.service-part-1 > div,
+.service-part-2 > div {
+  transition: 0.2s ease-in-out;
+}
+.service-part-1 > div:hover,
+.service-part-2 > div:hover {
+  transform: scale(1.04);
+}
+.projects-2 img {
+  transition: 0.2s ease-in-out;
+}
+.projects-2 img:hover {
+  transform: scale(1.02);
+}
+.single-company {
+  transition: 0.2s ease-in-out;
+}
+.single-company:hover {
+  transform: scale(1.1);
+}
+@media (max-width: 768px) {
+  .person {
+    margin-bottom: 40px !important;
+  }
+}
+@media (min-width: 1080px) {
+  .person .person-info {
+    width: 60%;
+    left: 30%;
+  }
+}
+.btn-arrow {
+  background: #8e0554;
+}
+.single-company {
+  background: transparent !important;
+  padding: 0px;
+}
+.single-company img {
+  height: 107px;
+  max-width: 250px;
+}

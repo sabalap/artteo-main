@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en" id="home">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/styles2.css">
+    <script src="https://kit.fontawesome.com/ff75f832eb.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("a").on('click', function (event) {
+                if (this.hash !== "") {
+                    event.preventDefault();
+                    var hash = this.hash;
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 1000, function () {
+                        window.location.hash = hash;
+                    });
+                }
+            });
+        });
+    </script>
+    <title>Artteo</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">
+                    <img src="./images/logo.png" alt="logo">
+                </a>
+                <ul>
+                    <li>
+                        <a href="#">Home</a>
+                        <img src="./images/Line 2.png" alt="line">
+                    </li>
+                    <li>
+                        <a href="#project">Project</a>
+                        <img src="./images/Line 2.png" alt="line">
+                    </li>
+                    <li>
+                        <a href="#team">Team</a>
+                        <img src="./images/Line 2.png" alt="line">
+                    </li>
+                    <li>
+                        <a href="#services">Services</a>
+                        <img src="./images/Line 2.png" alt="line">
+                    </li>
+                    <li>
+                        <a href="#clients">Clients</a>
+                        <img src="./images/Line 2.png" alt="line">
+                    </li>
+                </ul>
+                <div class="btn-container">
+                    <button type="button" class="btn-contact">Contact us</button>
+                </div>
+            </nav>
+            <div class="header-section">
+                <div class="text">
+                    <h1>Boost Your <br />
+                        Business up to <br />
+                        High level
+                    </h1>
+                    <p class="agency">Like any agency we are only as good as the result <br />
+                        we deliver with of our recent work
+                    </p>
+                    <button type="button" class="get-started-btn btn">Get Started</button>
+                    <hr />
+                    <p class="hurry">If you are hurry, quick call to us <br />
+                        our customer team available for 24/7
+                    </p>
+                    <div class="call">
+                        <img src="./images/Group 8.png" alt="telephone-icon">
+                        <div>
+                            <p>Call us</p>
+                            <p>+32 (2) 24 52 70</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="image-container">
+                    <img src="./images/Group 3.png" alt="people group" class="negotiation">
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="about">
+            <h2>Who we are</h2>
+            <h4>Team Arttteo</h4>
+        </div>
+        <section class="main-section">
+            <div class="container">
+                <div class="info">
+                    <div class="container">
+                        <h1 class="agency">We are a Future focused Agency <br />
+                            based on <span>Georgia</span>
+                        </h1>
+                        <p class="creative">Creative Agency with the Georgian Character,<br />
+                            designed to develop and build great brands. <br />
+                            We help you innovate and outperform in the modern world.
+                        </p>
+                        <button type="button" class="btn learn-more">Learn more</button>
+                        <img src="./images/undraw_teamwork_hpdk.png" class="team-work" alt="team work">
+                        <img src="./images/Ellipse 56.png" class="eclipse-left" alt="">
+                    </div>
+                </div>
+                <div class="details">
+                    <div class="container">
+                        <img src="./images/Rectangle 38.png" class="pink-line" alt="">
+                        <img src="./images/Rectangle 37.png" alt="" class="green-line">
+                        <div class="box-1">
+                            <img src="./images/1.png" alt="1">
+                            <h4>Professional support</h4>
+                            <p>We also provide tangible <br />
+                                resultmeasurable logn-term business
+                            </p>
+                        </div>
+                        <div class="box-2">
+                            <img src="./images/2.png" alt="2">
+                            <h4>Awesome design</h4>
+                            <p>We also provide tangible <br />
+                                resultmeasurable logn-term business
+                            </p>
+                        </div>
+                        <div class="box-1">
+                            <img src="./images/3.png" alt="">
+                            <h4>Planning & executing</h4>
+                            <p>We also provide tangible <br />
+                                resultmeasurable logn-term business
+                            </p>
+                        </div>
+                        <div class="projects">
+                            <div>
+                                <p>143</p>
+                                <p>Projects done</p>
+                            </div>
+                            <div>
+                                <p>66</p>
+                                <p>Clients</p>
+                            </div>
+                            <div>
+                                <p>23</p>
+                                <p>Running projects</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="services" id="services">
+            <div class="title-service">
+                <h1>What we can do</h1>
+                <h3>Services</h3>
+            </div>
+            <div class="container">
+                <div class="service-part-1">
+                    <div class="ar-service green">
+                        <h3>AR/VR/MR Development</h3>
+                        <ul>
+                            <li>
+                                <img class="eclipse-circle" src="./images/Ellipse 52.png" alt="">
+                                Augmented Reality
+                            </li>
+                            <li>
+                                <img class="eclipse-circle" src="./images/Ellipse 52.png" alt="">
+                                Virtual Reality
+                            </li>
+                            <li>
+                                <img class="eclipse-circle" src="./images/Ellipse 52.png" alt="">
+                                Mixed Reality
+                            </li>
+                            <li>
+                                <img class="eclipse-circle" src="./images/Ellipse 52.png" alt="">
+                                We love what we do
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="al-service green">
+                        <h3>AL/ML/ Development</h3>
+                        <ul>
+                            <li>
+                                <img class="eclipse-circle" src="./images/Ellipse 52.png" alt="">
+                                Machine Learning
+                            </li>
+                            <li>
+                                <img class="eclipse-circle" src="./images/Ellipse 52.png" alt="">
+                                Chatbot Development
+                            </li>
+                            <li>
+                                <img class="eclipse-circle" src="./images/Ellipse 52.png" alt="">
+                                Image Processing
+                            </li>
+                            <li>
+                                <img class="eclipse-circle" src="./images/Ellipse 52.png" alt="">
+                                Voice-based Al
+                            </li>
+                        </ul>
+                    </div>
+                    <img src="./images/Group 30.png" alt="">
+                </div>
+                <div class="service-part-2">
+                    <div class="web-service pink">
+                        <h3>WEB Development</h3>
+                        <ul>
+                            <li>
+                                <img class="eclipse-circle" src="./images/Ellipse 52.png" alt="">
+                                Building
+                            </li>
+                            <li>
+                                <img class="eclipse-circle" src="./images/Ellipse 52.png" alt="">
+                                Integrating
+                            </li>
+                            <li>
+                                <img class="eclipse-circle" src="./images/Ellipse 52.png" alt="">
+                                Scaling and maintaining
+                            </li>
+                            <li>
+                                <img class="eclipse-circle" src="./images/Ellipse 52.png" alt="">
+                                Responsive website
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="web-service pink">
+                        <h3>UI / UX Design</h3>
+                        <ul>
+                            <li>
+                                <img class="eclipse-circle" src="./images/Ellipse 52.png" alt="">
+                                Sketching
+                            </li>
+                            <li>
+                                <img class="eclipse-circle" src="./images/Ellipse 52.png" alt="">
+                                Wireframing
+                            </li>
+                            <li>
+                                <img class="eclipse-circle" src="./images/Ellipse 52.png" alt="">
+                                UX research
+                            </li>
+                            <li>
+                                <img class="eclipse-circle" src="./images/Ellipse 52.png" alt="">
+                                UI visualisation
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="web-service pink">
+                        <h3>Game Development</h3>
+                        <ul>
+                            <li>
+                                <img class="eclipse-circle" src="./images/Ellipse 52.png" alt="">
+                                Creating 2D games
+                            </li>
+                            <li>
+                                <img class="eclipse-circle" src="./images/Ellipse 52.png" alt="">
+                                Creating 3D games
+                            </li>
+                            <li>
+                                <img class="eclipse-circle" src="./images/Ellipse 52.png" alt="">
+                                Deployment
+                            </li>
+                            <li>
+                                <img class="eclipse-circle" src="./images/Ellipse 52.png" alt="">
+                                Support and maintance
+                            </li>
+                        </ul>
+                    </div>
+                    <img src="./images/Rectangle 38.png" class="pink-line" alt="">
+                    <img src="./images/Rectangle 37.png" class="green-line" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="team" id="team">
+            <div class="container">
+                <div class="title-team">
+                    <h1>Our Team</h1>
+                    <h3><span>Experienced</span> team with the history</h3>
+                </div>
+                <div class="persons">
+                    <div class="person">
+                        <img src="./images/Mask Group 1.png" class="person-img" alt="">
+                        <div class="person-info">
+                            <div class="footer">
+                                <div>
+                                    <img src="./images/Red Logo.png" alt="logo">
+                                    <h4>John Doe</h4>
+                                </div>
+                                <div>
+                                    <p class="span">Arttteo</p>
+                                    <p>CEO</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="person">
+                        <img src="./images/Mask Group 1.png" class="person-img" alt="">
+                        <div class="person-info light-pink">
+                            <div class="footer">
+                                <div>
+                                    <img src="./images/Red Logo.png" alt="logo">
+                                    <h4>John Doe</h4>
+                                </div>
+                                <div>
+                                    <p class="span">Arttteo</p>
+                                    <p>CEO</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-person">
+                    <div class="text">
+                        <h3>Grow together with world <span>leaders</span></h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur <br />adipisicing elit.
+                            Provident commodi <br />
+                            deserunt nulla et officiis reiciendis quae, <br />
+                            neque dolore sit fugit?
+                        </p>
+                        <button class="members">See all members</button>
+                        <button class="btn">Get in touch</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="works" id="project">
+            <img src="./images/Rectangle 38.png" class="pink-line" alt="">
+            <img src="./images/Rectangle 37.png" class="green-line" alt="">
+            <div class="container">
+                <div class="work-title">
+                    <h1>Our works</h1>
+                </div>
+                <h2>Projects</h2>
+                <div class="project-header">
+                    <p>Enganging web and video projects that perfectly match your brand.</p>
+                    <button class="members">See all projects</button>
+                </div>
+                <div class="projects-1">
+                    <div class="projects-part-1">
+                        <div class="business-agency">
+                            <img src="./images/business-agency.png" alt="">
+                        </div>
+                        <h4>Business agency</h4>
+                        <p>We create an amazing product</p>
+                    </div>
+                    <div class="projects-part-2">
+                        <div class="mobile-design">
+                            <img src="./images/Scroll Group 1.png" alt="">
+                        </div>
+                        <h4>Mobile design</h4>
+                        <p>Amazing mobile app</p>
+                    </div>
+                    <div class="projects-part-3">
+                        <div class="business-agency-2">
+                            <img src="./images/Image 1.png" alt="">
+                        </div>
+                        <h4>Business agency</h4>
+                        <p>We create an amazing product</p>
+                    </div>
+                </div>
+                <div class="projects-2">
+                    <div class="projects-part-3">
+                        <div class="business-agency-2">
+                            <img src="./images/Image 1.png" alt="">
+                        </div>
+                        <h4>Business agency</h4>
+                        <p>We create an amazing product</p>
+                    </div>
+
+                    <img src="./images/Group 40.png" alt="">
+
+                </div>
+                <div class="projects-1">
+                    <div class="projects-part-1">
+                        <div class="business-agency">
+                            <img src="./images/business-agency.png" alt="">
+                        </div>
+                        <h4>Business agency</h4>
+                        <p>We create an amazing product</p>
+                    </div>
+                    <div class="projects-part-2">
+                        <div class="mobile-design">
+                            <img src="./images/Scroll Group 1.png" alt="">
+                        </div>
+                        <h4>Mobile design</h4>
+                        <p>Amazing mobile app</p>
+                    </div>
+                    <div class="projects-part-3">
+                        <div class="business-agency-2">
+                            <img src="./images/Image 1.png" alt="">
+                        </div>
+                        <h4>Business agency</h4>
+                        <p>We create an amazing product</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="companies" id="clients">
+            <img src="./images/Rectangle 38.png" class="pink-line" alt="">
+            <img src="./images/Rectangle 37.png" class="green-line" alt="">
+            <div class="container">
+                <div class="companies-title">
+                    <h1>Companies that <span>trust us</span></h1>
+                    <p>We have worked companies big and small</p>
+                </div>
+                <div class="companies-list-1">
+                    <div class="single-company">
+                        <img src="./images/1maclogo.jpg" alt="">
+                    </div>
+                    <div class="single-company">
+                        <img src="./images/2humanalogo.jpg" alt="">
+                    </div>
+                    <div class="single-company">
+                        <img src="./images/3Nლოგო.jpg" alt="">
+                    </div>
+                    <div class="single-company">
+                        <img src="./images/4GaguaClinic.jpg" alt="">
+                    </div>
+                </div>
+                <div class="companies-list-2">
+                    <div class="single-company">
+                        <img src="./images/5FFlogo.jpg" alt="">
+                    </div>
+                    <div class="single-company">
+                        <img src="./images/6Screenshot 2021-05-16 153308.jpg" alt="">
+                    </div>
+                    <div class="single-company">
+                        <img src="./images/7DoctraLogo.jpg" alt="">
+                    </div>
+                    <div class="single-company">
+                        <img src="./images/8NGTLogo.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact">
+            <div class="container">
+                <div class="contact-title">
+                    <h2>Got a project <span>in mind?</span></h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Assumenda dolore <br /> omnis maiores, deserunt suscipit iste.
+                    </p>
+                    <button>talk to us</button>
+                </div>
+                <div class="contact-form">
+                    <div class="container">
+                        <div class="last-container">
+                            <div class="last-box">
+                                <h2>Ready to get started?</h2>
+                                <div class="row">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, quo!</p>
+                                    <button>Get a cuote</button>
+                                    <button>Contact us</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <a href="#home" class="btn-arrow">
+            <span class="fas fa-arrow-up"></span>
+        </a>
+    </main>
+</body>
+<script src="./js/script.js"></script>
+
+</html>
